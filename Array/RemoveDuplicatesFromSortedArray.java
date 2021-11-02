@@ -1,15 +1,3 @@
-class Solution {
-    public int removeDuplicates(int[] nums) {
-        int index = 1;
-        for(int i = 0; i < nums.length - 1; i++){
-            if(nums[i] != nums[i+1]){
-                nums[index++] = nums[i + 1]; 
-            }
-        }
-        return index;
-    }
-}
-
 /*
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
 
@@ -49,3 +37,16 @@ Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 */
+
+
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int index = 1;
+        for(int i = 0; i < nums.length - 1; i++){
+            if(nums[i] != nums[i+1]){
+                nums[index++] = nums[i + 1]; 
+            }
+        }
+        return index;
+    }
+}
