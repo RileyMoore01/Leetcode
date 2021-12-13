@@ -1,4 +1,5 @@
 //String Compression - Storing the repeated counts of each character
+//Runtime: O(p + k^2), p is size of orginal string, and k is the number of character squences
 //ex1. aaabbbccdddd = a3b3c2d4
 
 String compressedBad(String str) {
