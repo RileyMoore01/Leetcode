@@ -1,4 +1,10 @@
 public class DoublyLinkedList {
+
+  public static void main(String[] args) {
+
+
+
+  }
     
   public Node head;
   public Node tail;
@@ -23,6 +29,83 @@ public class DoublyLinkedList {
     }
   }
 
+  public void addToTail(String data) {
+    Node newTail = new Node(data);
+    Node currentTail = this.tail;
+
+    if (currentTail != null) {
+      currentTail.setNextNode(newTail);
+      newTail.setPreviousNode(currentTail);
+    }
+    this.tail = newTail;
+
+    if (this.head == null) {
+      this.head = newTail;
+    }
+  }
+
+  public String removeHead() {
+    Node removedHead = this.head;
+
+    if (removedHead == null) {
+      return null;
+    }
+    this.head = removedHead.getNextNode();
+
+    if (this.head != null) {
+      this.head.setPreviousNode(null);
+    }
+    if (removedHead == this.tail) {
+      this.removeTail();
+    }
+    return removedHead.data;
+  }
+
+  public String removeTail() {
+    Node removedTail = this.tail;
+
+    if (removedTail == null) {
+      return null;
+    }
+    this.tail = removedTail.getPreviousNode();
+
+    if (this.tail != null) {
+      this.tail.setNextNode(null);
+    }
+    if (removedTail == this.head) {
+      this.removeHead();
+    }
+    return removedTail.data;
+  }
+
+  public Node removeByData(String data) {
+    Node nodeToRemove = null;
+    Node currentNode = this.head;
+
+    while (currentNode != null) {
+      if (currentNode.data == data) {
+        nodeToRemove = currentNode;
+        break;
+      }
+      currentNode = currentNode.getNextNode();
+    }
+
+    if (nodeToRemove == null) {
+      return null;
+    }
+    if (nodeToRemove == this.head) {
+      this.removeHead();
+    } else if (nodeToRemove == this.tail) {
+      this.removeTail();
+    } else {
+      Node nextNode = nodeToRemove.getNextNode();
+      Node previousNode = nodeToRemove.getPreviousNode();
+      nextNode.setPreviousNode(previousNode);
+      previousNode.setNextNode(nextNode);
+    }
+    return nodeToRemove;
+  }
+
   public String printList() {
     Node currentNode = this.head;
     String output = "<head> ";
@@ -35,12 +118,7 @@ public class DoublyLinkedList {
     return output;
   }
 
-  public static void main(String[] args) {
-    
-  }
-
 }
-
 //-----------------------------------------------------------
 Node.java
 
