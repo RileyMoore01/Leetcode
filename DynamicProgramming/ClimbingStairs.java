@@ -14,3 +14,22 @@ class Solution {
         return arr[n-2]+2;
     }
 }
+
+
+//Bottom up approach
+class Solution {
+    public int climbStairs(int n) {
+        int[] arr = new int[n+1];   //This will be the returned result array
+        Arrays.fill(arr, 0);        //Temporarily fill dp will 0's
+        int ans = countWays(arr, n);
+        return ans;
+    }
+    
+    public int countWays(int[] arr, int n) {
+        if(n < 3) return n;   
+        for(int i = 0; i < n; i++){
+            arr[i] = arr[n-1] + arr[n-2];
+        }
+        return arr[n];
+    }
+}
