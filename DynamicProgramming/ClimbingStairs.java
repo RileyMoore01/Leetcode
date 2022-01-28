@@ -15,8 +15,7 @@ class Solution {
     }
 }
 
-
-//Bottom up approach
+//Bottom up approach -----------------------------------------------------------------------------
 class Solution {
     public int climbStairs(int n) {
         int[] arr = new int[n+1];   //This will be the returned result array
