@@ -57,11 +57,11 @@ class Result {
 
     public static List<Integer> countingSort(List<Integer> arr) {
     // Write your code here
-        ArrayList<Integer> count = new ArrayList<Integer>(Collections.nCopies(100, 0));
+        ArrayList<Integer> count = new ArrayList<Integer>(Collections.nCopies(100, 0));     //Initalize arraylist w 100 0's
         int value = 0;
-        for( int nbr : arr ) {
-            value = count.get(nbr) + 1;
-            count.set(nbr, value);
+        for( int nbr : arr ) {              //Iteriate through arr, grabbing the arr value for count index value
+            value = count.get(nbr) + 1;     //Set value equal to current count at nbr, add one for future insertion operation
+            count.set(nbr, value);          //Inserting the new value, at index of arr.value
         }
         return count;
     }
