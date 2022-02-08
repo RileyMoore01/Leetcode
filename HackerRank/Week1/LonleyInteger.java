@@ -44,8 +44,8 @@ class Result {
     public static int lonelyinteger(List<Integer> a) {
     // Write your code here
        int r = 0;
-       for(int i: a) {
-           r ^= i;
+       for(int i: a) {  //XOR each element to find the lonely integer
+           r ^= i;      //XOR is both or none
        }
        return r;
     }
