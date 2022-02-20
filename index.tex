@@ -31,6 +31,7 @@ Parameters: Two sets A \& B
 
 
 \section{}
+Def.(function) A relation f on set A and B is a function, called a function from A to B, denoted f: A $->$ B, if for every a $\in$ A, there is at most one value b of B such that (a,b) $\in$ f.
 \subsection{}
 Name: function \\
 Parameters: sets A \& B
@@ -45,8 +46,14 @@ Important Variables: [f, A, B, a, b]
 \begin{center}
 \begin{forest}
 [$if$
-    [$\forall (a \in A)$]
-    [$(a, b) \in (f)$]
+    [f is relation over A$\&$B: relation(a$\,$b)]
+    [$function$
+        [f]
+        [(a.b)
+            [A]
+            [B]
+        ]
+    ]
 ]
 \end{forest}
 \end{center}
