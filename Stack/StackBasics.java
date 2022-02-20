@@ -1,3 +1,6 @@
+//Here are the basic methods and operations on a stack
+//Methods: Push(value), Pop(), Peek(), Search(value), Empty()
+
 import java.util.Stack;
 import java.util.Iterator;
 
