@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[linguistics]{forest}
+
+\title{CS3383 Homework 2}
+\author{Riley Moore}
+\date{February 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{NA}
+
+\section{}
+(N, T) where\\
+N = [a, b, c1, c2, d, e] \\    
+T = [(a,b), (b,c1), (b,c2), (a,d), (d,e)]
+
+\section{}
+Write a mathematical definition
+
+A = B? NO
+
+A = C? YES
+
+A = D? NO
+
+\section{}
+
+
+\section{}
+\subsection{}
+Name: function \\
+Parameters: sets A & B
+\subsection{}
+Names & Arguments = [sets, memberships]
+\subsection{}
+Logic Symbols: Quantifier = [for every, implication]
+\subsection{}
+Important Variables: [f, A, B, a, b]
+\subsection{}
+\begin{center}
+\begin{forest}
+[$if$
+    [$\forall (a \in A)$]
+    [$(a, b) \in (f)$]
+]
+\end{forest}
+\end{center}
+
+\section{}
+For the set A, we have a set of natural numbers N = 0,1,2,3,...\\
+Using function f(n) we can prove:\\
+n=0,f(0)=1,n=1,f(1)=3,n=2,f(2)=5...\\
+Therefore, set A is countably infinite
+
+\section{}
+From the function give, we can deduce:\\
+f(1)=2$^1=2$, f(2)=2$^2=4$, f(3)=2$^3=8$, f(4)=2$^4=16$\\
+\begin{center}
+\begin{forest}
+[1
+    [2
+        [3
+            [4
+            ]
+        ]
+    ]
+]
+\end{forest}
+\end{center}
+
+----------------------------------------------------------------------------------------------
+
+\begin{center}
+\begin{forest}
+[2
+    [4
+        [8
+            [16
+            ]
+        ]
+    ]
+]
+\end{forest}
+\end{center}
+How to read the definition: 
+a set of D has an element x in the set A and x is not an element in f(x)\\
+Therefore we can see that D = 1 and 3
+
+
+\end{document}
