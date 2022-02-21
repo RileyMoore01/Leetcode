@@ -18,6 +18,7 @@ class Solution {
     public int[] twoSum(int[] numbers, int target) {
         //Must be index1 < index2
         //List sorted in non-decreasing order
+        //Using two pointer approach
         int left = 0;
         int right = numbers.length - 1;       
         while(left < right)
