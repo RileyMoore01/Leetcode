@@ -13,3 +13,8 @@ Escape Sequence for strings -> put | in front of quotation mark to print the mar
                                
 String Interpelation -> to add a string with print, use {} around the variable instead of + in other languages
                         make sure to put $ infront of the qutation mark starting the string w/out any space between
+String Operations & Methods:
+  .Length
+  .IndexOf
+  .Substring - Use indexOf to find the char position, then Substring will grad that section of teh stirng
+        
