@@ -7,3 +7,5 @@ Math  methods to memorize:
   Maht.Pow() - Rasies one value to the power of the second value
   Math.Ceiling() - Rounds  up the varaible passed into it
   Math.Max() - Returns the max of the two values passed in
+  
+Escape Sequence for strings -> put / in front of quotation mark to print the marks to console.
