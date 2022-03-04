@@ -1,4 +1,8 @@
 C# 
+Random Facts: 
+  Type errors are checked before the program runs
+  Converting an double to a int is an Explicit type conversion
+  
 Math  methods to memorize: 
   Math.Abs() - Finds the absoulte value of variable passed in as a parameter 
   Math.Sqrt() - Finds the square root of value passed in
@@ -17,4 +21,6 @@ String Operations & Methods:
   .Length
   .IndexOf
   .Substring - Use indexOf to find the char position, then Substring will grad that section of teh stirng
+  .ToUpper() - .Net method
+  .ToLower() - .Net method
         
