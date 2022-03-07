@@ -61,16 +61,15 @@ public class LinkedList {
 	}
 
 	public Node findNodeRecursively(String data, Node currentNode) {
-		// Add code here
-    if (currentNode == null) {
-      return null;
-    } else if (data == currentNode.data) {
-      return currentNode;
-    } else {
-      return this.findNodeRecursively(data, currentNode.getNextNode());
-    }
+	    if (currentNode == null) {
+	      return null;
+	    } else if (data == currentNode.data) {
+	      return currentNode;
+	    } else {
+	      return this.findNodeRecursively(data, currentNode.getNextNode());
+	    }
 
-	}
+		}
 
   public static void main(String[] args) {
 		LinkedList myList = new LinkedList();
