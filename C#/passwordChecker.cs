@@ -5,7 +5,6 @@ Tools: Using "Tools.Contains()", and ".Length"
 */
 
 using System;
-
 namespace PasswordChecker
 {
   class Program
@@ -35,8 +34,9 @@ namespace PasswordChecker
         score++;
       }
 
-      //Switch case for user response on password strength
+      //Check the strength of the user's password
       Console.Write("Password Strength: ");
+      
       switch(score) {
         case 0: 
           Console.WriteLine("Does not meet requirements");
