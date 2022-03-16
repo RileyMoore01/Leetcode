@@ -1,3 +1,7 @@
+/*
+Riley Moore
+This program is to practice reading in user input and using several built in string operations
+*/
 using System;
 
 namespace ChooseYourOwnAdventure
