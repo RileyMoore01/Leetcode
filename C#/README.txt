@@ -23,6 +23,7 @@ String Operations & Methods:
   .Substring - Use indexOf to find the char position, then Substring will grad that section of teh stirng
   .ToUpper() - .Net method
   .ToLower() - .Net method
+  .Substring(index1, toIndex2) - Grabs a substring of the string calling the method
 
 Ternary Operators -> Like an if else in one line
   string result = (color == "blue") ? "blue" : "Not Blue";
