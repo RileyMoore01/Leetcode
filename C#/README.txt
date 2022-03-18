@@ -29,3 +29,5 @@ Ternary Operators -> Like an if else in one line
   string result = (color == "blue") ? "blue" : "Not Blue";
   if the color is blue then "blue" will print, otherwise "Not Blue" will print
   Format: string value = (value2 <= condition) ? if statement : else statement;
+  
+Optional Parameters: Assign an '=' sign in the parameter and it will be stored if parameter is not passed
