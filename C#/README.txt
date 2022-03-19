@@ -31,3 +31,4 @@ Ternary Operators -> Like an if else in one line
   Format: string value = (value2 <= condition) ? if statement : else statement;
   
 Optional Parameters: Assign an '=' sign in the parameter and it will be stored if parameter is not passed
+  assigning certain parameters while calling. ex.) (int a, int b, int c) -> to assign 4 to c do (c: 4)
