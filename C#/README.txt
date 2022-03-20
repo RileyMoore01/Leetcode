@@ -32,3 +32,5 @@ Ternary Operators -> Like an if else in one line
   
 Optional Parameters: Assign an '=' sign in the parameter and it will be stored if parameter is not passed
   assigning certain parameters while calling. ex.) (int a, int b, int c) -> to assign 4 to c do (c: 4)
+  
+Out Keyword: keyword in C# which is used for the passing the arguments to methods as a reference type.
