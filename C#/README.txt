@@ -1,4 +1,8 @@
 C# 
+
+To-Do: 
+  Out keyword
+ 
 Random Facts: 
   Type errors are checked before the program runs
   Converting an double to a int is an Explicit type conversion
