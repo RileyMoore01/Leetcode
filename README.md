@@ -13,6 +13,10 @@ __Searching Algorithms__
 
 __Sorting Algorithms__
 
-__
+__Stacks__
+
+__Queues__
+
+__Node Modules__
 
 __Reference to Cracking the Coding Interview__
