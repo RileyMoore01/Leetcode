@@ -10,7 +10,7 @@ This repo is also used for me to practice my version control along with my dynam
 These skills include commits, pull requests, issues, and branch control.
 
 __Searching Algorithms__
-
+    - Binary Search
 __Sorting Algorithms__
 
 __Stacks__
