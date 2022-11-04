@@ -42,6 +42,7 @@ class BinarySearch
 
 
 ----------------------------------------------------------------------------
+  
 //Short Soultion
 
 int start = 0, pivot;
