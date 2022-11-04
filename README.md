@@ -11,6 +11,8 @@ These skills include commits, pull requests, issues, and branch control.
 
 __Searching Algorithms__
 
-__Sorting Algorithms
+__Sorting Algorithms__
+
+__
 
 __Reference to Cracking the Coding Interview__
