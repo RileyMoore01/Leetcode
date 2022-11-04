@@ -9,4 +9,8 @@ I will be going through leetcode problems to expand my critical thinking and tra
 This repo is also used for me to practice my version control along with my dynamic programming.
 These skills include commits, pull requests, issues, and branch control.
 
+__Searching Algorithms__
+
+__Sorting Algorithms
+
 __Reference to Cracking the Coding Interview__
