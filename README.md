@@ -19,3 +19,12 @@
   <li>Quick Sort</li>
   <li>Selection Sort</li>
 </ul>
+
+<h1>Data Structures</h1>
+<ul>
+  <li>Linked List</li>
+  <li>Dictionary</li>
+  <li>Queue</li>
+  <li>Stack</li>
+  <li>Array</li>
+</ul>
