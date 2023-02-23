@@ -1,22 +1,7 @@
-# Leetcode
+<h1>Leetcode</h1>
+<p>Here I will be going back through my leetcode submissions to make extra comments and expand on critical thinking</p>
 
-I will be going through leetcode problems to expand my critical thinking and tracking my progress through this repo
-
-    
-    Arrays -> Strings -> Linked List -> Trees -> Sorting and Searching -> Dynamic Programming -> Design
+<h1>Algorithms</h1>
 
 
-This repo is also used for me to practice my version control along with my dynamic programming.
-These skills include commits, pull requests, issues, and branch control.
-
-__Searching Algorithms__ <br />
-    * Binary Search <br />
-__Sorting Algorithms__ <br />
-
-__Stacks__ <br />
-
-__Queues__ <br />
-
-__Node Modules__ <br />
-
-__Reference to Cracking the Coding Interview__ <br />
+<h1>Search Algorithms</h1>
