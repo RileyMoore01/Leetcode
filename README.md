@@ -15,4 +15,7 @@
 <ul>
   <li>Merge Sort</li>
   <li>Bubble Sort</li>
+  <li>Insertion Sort</li>
+  <li>Quick Sort</li>
+  <li>Selection Sort</li>
 </ul>
