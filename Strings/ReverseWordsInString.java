@@ -9,6 +9,42 @@ Example 2:
 Input: s = "God Ding"
 Output: "doG gniD"
 */
+
+---  Personal Solution ---
+class Solution {
+    public String reverseWords(String s) {
+        String[] words = s.split(" ");
+        int start = 0, end = words.length - 1;
+        
+        while (end > start)
+        {
+            String temp = words[start];
+            words[start] = words[end];
+            words[end] = temp;
+            start++;
+            end--;
+        }
+        
+        s = "";
+        boolean flag = true;
+        for (String word : words)
+        {
+            if(flag)
+            {
+                s = word;   
+                flag = false;
+            }
+            else if (!flag && word != "")
+            {
+                s = s + " " + word;
+            }
+        }
+        
+        return s;
+    }
+}
+
+--------------------------------------------------------------------------------------
 class Solution {
     public String reverseWords(String s) {
         char[] arr = s.toCharArray();
