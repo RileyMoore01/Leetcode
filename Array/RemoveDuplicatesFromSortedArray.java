@@ -50,3 +50,25 @@ class Solution {
         return index;
     }
 }
+
+// Another solution from GFG
+//--------------------------------------------------------------------------
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int length = nums.length;
+        
+        // Store the index of next unique element
+        int index = 0;
+        
+        //
+        for (int i = 0; i < length - 1; i++)
+        {
+            if(nums[i] != nums[i+1])
+                nums[index++] = nums[i];
+        }
+        
+        nums[index++] = nums[length-1];
+        
+        return index;
+    }
+}
