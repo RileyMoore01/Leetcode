@@ -60,7 +60,8 @@ class Solution {
         // Store the index of next unique element
         int index = 0;
         
-        //
+        // Loop through the entire int array
+        // Searching for unique elements
         for (int i = 0; i < length - 1; i++)
         {
             if(nums[i] != nums[i+1])
