@@ -35,3 +35,27 @@ class Solution {
         return dummy.next; // return dummy.next bcz, we don't want the value we have consider in it intially!!
     }
 }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        int carryOver = 0;
+        ListNode dummy = new ListNode(0);
+        ListNode current = dummy;
+
+        while (l1 != null || l2 != null || carryOver != 0) {
+            int value1 = (l1 != null) ? l1.val : 0;
+            int value2 = (l2 != null) ? l2.val : 0;
+            int sum = carryOver + value1 + value2;
+            carryOver = sum / 10;
+            current.next = new ListNode(sum % 10);
+            current = current.next;
+            if (l1 != null)
+                l1 = l1.next;
+            if (l2 != null)
+                l2 = l2.next;
+        }
+        return dummy.next;
+    }
+}
