@@ -1,5 +1,5 @@
 <h1>Leetcode</h1>
-<h3>Overall Data Strucutre and Algorithms notes</h3>h3>
+<h3>Overall Data Strucutre and Algorithms notes</h3>
 <a href='https://docs.google.com/document/d/1wi_CtmvwYwwevMRHrvvKb4QIiUEjcpnGm10o7pWOUJg/edit'>Here</a>
 <p>Here I will be going back through my leetcode submissions to make extra comments and expand on critical thinking</p>
 
