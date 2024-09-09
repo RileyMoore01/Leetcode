@@ -10,3 +10,9 @@ public class Node () {
     this.next = null;
   }
 }
+
+public class LinkedList () {
+  public Node head;
+
+  // Function to add a node at the end of a linked list
+}
